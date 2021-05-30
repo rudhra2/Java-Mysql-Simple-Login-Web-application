@@ -1,10 +1,10 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%> 
 <!DOCTYPE html> 
 <html> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
-<title> Java Simple Login Web App</title> </head> 
+	<title><h1> Java Simple Login Web App ,I am added in this new build.</h1></title> </head> 
 
 
-<body bgcolor="#aaaaaa"> 
+<body bgcolor="#ccccff"> 
 
 <form method="post" action="login.jsp"> 
 <center> 

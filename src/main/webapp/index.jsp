@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title><h1> Java Simple Login Web App</h1></title>
+<title>Java Simple Login Web App</title>
 </head>
 <body bgcolor="#ccccff"> 
 

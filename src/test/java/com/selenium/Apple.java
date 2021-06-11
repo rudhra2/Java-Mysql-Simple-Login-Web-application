@@ -14,7 +14,7 @@ public class Apple {
 		  WebDriver driver = null;
 
 		   // public static void main(String[] args) throws InterruptedException{
-		        System.setProperty("webdriver.chrome.driver","C:\\\\Users\\\\Administrator\\\\eclipse-workspace\\\\seleniumdemo1\\\\driver\\\\chromedriver.exe");
+		        System.setProperty("webdriver.chrome.driver","C:\\Program Files\\webdriver\\chromedriver.exe");
 		        driver = new ChromeDriver();
 		        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 

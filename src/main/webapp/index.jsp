@@ -1,9 +1,11 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%> 
-<!DOCTYPE html> 
-<html> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
-	<title><h1> Java Simple Login Web App</h1></title> </head> 
-
-
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title><h1> Java Simple Login Web App</h1></title>
+</head>
 <body bgcolor="#ccccff"> 
 
 <form method="post" action="login.jsp"> 
@@ -20,3 +22,5 @@
 </center> 
 </form>
 </body> 
+
+</html>

@@ -26,6 +26,7 @@ public class Apple {
 		        if(title.equalsIgnoreCase("Java Simple Login Web App"))
 		            System.out.println("Title matches");
 		        else
+				System.out.println(title);
 		        Thread.sleep(3000);
 
 

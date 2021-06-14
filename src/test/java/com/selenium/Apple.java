@@ -19,14 +19,13 @@ public class Apple {
 		        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
 		        //open the web app
-		        driver.navigate().to("http://18.116.163.183:8080/LoginWebApp/");
+		        driver.navigate().to("http://18.218.201.73:8080/LoginWebApp/");
 		        driver.manage().window().maximize();
 		        String title = driver.getTitle();
 
-		        if(title.equalsIgnoreCase("<h1> Java Simple Login Web App</h1>"))
+		        if(title.equalsIgnoreCase("Java Simple Login Web App"))
 		            System.out.println("Title matches");
 		        else
-		            System.out.println(title);
 		        Thread.sleep(3000);
 
 

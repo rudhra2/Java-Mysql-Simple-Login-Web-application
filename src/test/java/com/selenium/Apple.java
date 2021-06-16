@@ -14,12 +14,12 @@ public class Apple {
 		  WebDriver driver = null;
 
 		   // public static void main(String[] args) throws InterruptedException{
-		        System.setProperty("webdriver.chrome.driver","C:\\Program Files\\webdriver\\chromedriver.exe");
+		        System.setProperty("webdriver.chrome.driver","C:\\Users\\Administrator\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		        driver = new ChromeDriver();
 		        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
 		        //open the web app
-		        driver.navigate().to("http://3.142.69.63:8080/LoginWebApp/");
+		        driver.navigate().to("http://localhost:1010/LoginWebApp/");
 		        driver.manage().window().maximize();
 		        String title = driver.getTitle();
 
